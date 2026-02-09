@@ -1,0 +1,82 @@
+# Переменные окружения и ключи
+.env
+.env.local
+.env.*.local
+*.key
+*.pem
+*.cert
+
+# Базы данных
+*.db
+*.sqlite
+*.sqlite3
+*.db.bak
+*.bak
+answerbot*.db
+answerbot*.db.bak
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Виртуальное окружение
+venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+
+# Логи
+logs/
+*.log
+*.log.*
+
+# Загруженные файлы
+static/uploads/*
+!static/uploads/.gitkeep
+admin/static/uploads/*
+!admin/static/uploads/.gitkeep
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Временные файлы
+*.tmp
+*.temp
+.cache/
+
+# Деплой и служебные файлы
+docker-compose.yml
+Dockerfile
+*.service
+*.sh
+!wsgi.py
+
+# Миграции (старые скрипты)
+migrate_*.py
+add_*.py
+init_database.py
